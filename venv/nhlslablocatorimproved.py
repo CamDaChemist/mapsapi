@@ -4,13 +4,7 @@ import googlemaps
 import openpyxl
 
 # Your API Key
-gmaps = googlemaps.Client(key='AIzaSyABAPas8lhxjnKzVKqtxHclUQDM-VsXSEM')
-
-import os
-import pandas as pd
-import googlemaps
-import openpyxl
-
+gmaps = googlemaps.Client(key='Insert_your_key - let me know if you struggle with obtaining one')
 
 # Function to handle geocoding
 def geocode_address_single(address):
